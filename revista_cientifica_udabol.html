@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revista Científica Médica UDABOL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #1f2937;
+    }
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+    }
+    header h1 {
+      margin: 0;
+      color: #1d4ed8;
+      font-size: 22px;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #374151;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: #1d4ed8;
+    }
+    .hero {
+      background: linear-gradient(90deg, #1d4ed8, #2563eb);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .card h4 {
+      margin-top: 0;
+      color: #1d4ed8;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #1d4ed8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .button:hover {
+      background-color: #1e40af;
+    }
+    footer {
+      background-color: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Revista Científica Médica – UDABOL</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre la revista</a>
+    <a href="#articulos">Artículos</a>
+    <a href="#equipo">Equipo editorial</a>
+    <a href="#envios">Envíos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h2>Ciencia, Investigación y Formación Médica</h2>
+  <p>
+    Publicación académica oficial de la Sociedad Científica de Estudiantes de Medicina
+    de la Universidad de Aquino Bolivia (UDABOL), orientada a la difusión del conocimiento
+    científico y la formación investigativa.
+  </p>
+</section>
+
+<section id="sobre">
+  <h3>Sobre la Revista</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Misión</h4>
+      <p>
+        Difundir producción científica médica elaborada por estudiantes y profesionales,
+        promoviendo la ética, el rigor metodológico y la investigación responsable.
+      </p>
+    </div>
+    <div class="card">
+      <h4>Visión</h4>
+      <p>
+        Ser una revista científica estudiantil reconocida a nivel nacional e internacional
+        por su calidad editorial y aporte académico.
+      </p>
+    </div>
+    <div class="card">
+      <h4>Enfoque Editorial</h4>
+      <p>
+        Investigación original, artículos de revisión, reportes de casos y trabajos académicos
+        relacionados con las ciencias de la salud.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="articulos">
+  <h3>Últimos Artículos</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Título del artículo científico</h4>
+      <p>Resumen breve del artículo publicado en la revista científica.</p>
+      <a href="#" class="button">Leer más</a>
+    </div>
+    <div class="card">
+      <h4>Título del artículo científico</h4>
+      <p>Resumen breve del artículo publicado en la revista científica.</p>
+      <a href="#" class="button">Leer más</a>
+    </div>
+    <div class="card">
+      <h4>Título del artículo científico</h4>
+      <p>Resumen breve del artículo publicado en la revista científica.</p>
+      <a href="#" class="button">Leer más</a>
+    </div>
+  </div>
+</section>
+
+<section id="equipo">
+  <h3>Equipo Editorial</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Director de la Revista</h4>
+      <p><strong>RUDDY JAVIER GUTIERREZ RAMIREZ</strong></p>
+    </div>
+    <div class="card">
+      <h4>Editor en Jefe</h4>
+      <p>Nombre del Editor</p>
+    </div>
+    <div class="card">
+      <h4>Comité Editorial</h4>
+      <p>Sociedad Científica de Estudiantes de Medicina</p>
+    </div>
+  </div>
+</section>
+
+<section id="envios">
+  <h3>Envío de Manuscritos</h3>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Los manuscritos deben cumplir las normas editoriales de la revista.
+    Todos los trabajos serán evaluados mediante revisión por pares.
+  </p>
+  <div style="text-align:center;">
+    <a href="#" class="button">Normas para autores</a>
+  </div>
+</section>
+
+<section id="contacto">
+  <h3>Contacto</h3>
+  <p style="text-align:center;">
+    Universidad de Aquino Bolivia (UDABOL)<br />
+    Sociedad Científica de Estudiantes de Medicina<br />
+    Correo institucional: revista@universidad.edu
+  </p>
+</section>
+
+<footer>
+  © 2026 Revista Científica Médica UDABOL. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
